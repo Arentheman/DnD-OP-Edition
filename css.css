@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+	font-family: 'Conv_one piece font';
+	src: url('fonts/one piece font.eot');
+	src: local('☺'), url('fonts/one piece font.woff') format('woff'), url('fonts/one piece font.ttf') format('truetype'), url('fonts/one piece font.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Pirate';
+	src: url('fonts/пират/PiecesofEightCyrillicAAV2.eot');
+	src: local('☺'), url('fonts/пират/PiecesofEightCyrillicAAV2.woff') format('woff'), url('fonts/пират/PiecesofEightCyrillicAAV2.ttf') format('truetype'), url('fonts/пират/PiecesofEightCyrillicAAV2.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#header{
+    position:absolute;
+    width: 100%;
+    background-color: black;
+    z-index: 999999;
+}
+.header a.menu{
+    border-radius: 30%;
+}
+.Logo{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.menu {
+    float: right;
+    font-size: 29pt;
+    padding: .6% 3% 0px 0px;
+    font-weight: 100;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.menu a {
+    text-decoration: none;
+    color:aqua;
+    padding: 1px 10px 1px 10px;
+    font-family: 'Conv_Pirate';
+}
+.menu a:hover{
+    background-color: #91833ec2;
+    border-radius: 8px;
+    
+    color: gold;
+    font-weight: bold;
+}
+body{
+    background-image: url(image/fone.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+footer{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color:aqua;
+    position: fixed;
+}
+footer p{
+    text-align: center;
+    padding: 10px 10px;
+}
+#left-menu{
+    float: left;
+    background-color: rgba(0, 102, 255, 0.743);
+    width: 13%;
+    height: 100vh;
+    max-height: 100%;
+    transition: margin-left .5s;
+    margin-left: -13%;
+
+}
+#left-menu a {
+    text-decoration: none;
+    color: black;
+    
+}
+.left-menu-pos{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align:center;
+    font-size: 29pt;
+    text-decoration: none;
+}
+.left-menu-pos p {
+    margin: 45px 0;
+    font-family: 'Conv_Pirate';
+}
+.left-menu-pos p :hover{
+    background-color: rgba(0, 153, 255, 0.667);
+    border-radius: 8%;
+    padding: 2px 0px;
+}
+.left-menu-button{
+  position: absolute;
+    height: 100vh;
+    width: 35px;
+    margin: 0px 0px 0px 12.7%;
+    z-index: 0;
+    background-color: rgb(0, 110, 161);
+}
+.left-menu-button img{
+    width: 20px;
+    height: 20px;
+}
+/* Navbar container */
+#navbar {
+    overflow: hidden;
+    font-family:'Conv_Pirate' ;
+  }
+  
+  
+  /* The dropdown container */
+  .dropdown {
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown #dropbtn {
+    font-size: 29pt;
+    padding: 20px 18px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    /*margin: 0;*//* Important for vertical align on mobile phones */
+  }
+  /* Add a red background color to navbar links on hover */
+  #navbar a:hover, .dropdown:hover  {
+    background-color: rgba(0, 153, 255, 0.5);
+    border-radius: 8%;
+  }
+
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    /*display: block;*/
+    background-color:rgba(0, 255, 255, 0.308);
+    /*width: 100%;
+    z-index: 1;*/
+    height: 0px;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20pt;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgba(0, 153, 255, 0.667);
+  }
+  
+.navbar-reg {
+    overflow: hidden;
+    font-family:'Conv_Pirate';
+  }
+  .dropbtn-reg {
+    font-size: 30pt;
+    color: black;
+    padding: 20px 18px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0;/* Important for vertical align on mobile phones */
+  }
+  /* Add a red background color to navbar links on hover */
+  .navbar-reg a:hover, .dropdown-reg:hover .dropbtn-reg {
+    background-color: rgba(0, 153, 255, 0.667);
+    border-radius: 8%;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content-reg {
+    display: block;
+    background-color:rgba(0, 255, 255, 0);
+    width: 100%;
+    z-index: 1;
+    transition: height 0.5s;
+    height: auto;
+    font-size: 20pt;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content-reg a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20pt;
+  }
+
+  .otpravit{
+      font-family: 'Conv_Pirate';
+      font-size: 25pt;
+      background-color: rgba(0, 255, 255, 0);
+  }
+  .otpravit:hover{
+    cursor: pointer;
+  }
+  .otpravit2{
+    font-family: 'Conv_Pirate';
+    font-size: 18pt;
+    border-radius: 6px;
+    border: blue;
+    border-style:solid;
+    background: #c5d2e8;
+}
+
+/*Поисковик*/
+.poisk {
+  position: absolute;
+  width:200px;
+  padding-left: 270px;
+  margin-top: 0.7%;
+  display: flex;
+  }
+  .search {
+  width: 100%;
+  background-color: gold;
+  font-family: 'Conv_Pirate';
+  font-size: 18pt;
+  }
+  .submit:hover{
+    cursor: pointer;
+  }
+  .submit{
+  font-family: 'Conv_Pirate';
+  font-size: 15pt;
+  padding: 9px;
+  background-color: rgb(136, 116, 6);
+  color:#ffffff;
+  }
+  /*Поисковик-end*/
+  iframe{
+    width: 560px; 
+    height:315px;
+  }

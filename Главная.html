@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>D&D OP Edition</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="cssmainslider.css">
+        <script src="main.js"></script>
+    </head>
+    <body>  
+        <!-- Шапка сайта -->
+        <header>
+            <div id ="header">
+                <img class = "Logo" src="image/finishedLogo1.png" alt="Логотип">
+                <form class="poisk">
+                    <input type="text" name="text" class="search" placeholder="Searchhere!">
+                    <input type="submit" name="submit" class="submit" value="Search">
+                </form>
+                <div class = "menu">
+                    <a href="Главная.html">Главная</a>
+                    <a href="pages/Контакты.html">Контакты</a>
+                    <a href="pages/Осайте.html">О сайте</a>
+                </div>
+            </div>
+        </header>
+        <!-- Боковое меню -->
+            <div id = "left-menu">
+                <div class="left-menu-button" >
+                    <button class="left-menu-button" onclick="OpenMenu();">
+                        <img src="image/3polosky.png" alt="меню">
+                    </button>
+                </div>
+                    <nav class="left-menu-pos">
+                    <p><a href="Главная.html">Главная</a></p>
+
+                    <div id="navbar"  >
+                        <div class="dropdown" onclick="OpenLeftMenu();">
+                          <button id="dropbtn">Справочник->
+                            <i class="fafa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content-container">
+                            <div class="dropdown-content" >
+                                <a href="pages/Механики.html">Механики</a>
+                                <a href="pages/Расы.html">Расы</a>
+                                <a href="pages/Класы.html">Классы</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- регистрация -->
+                    <form>
+                    <div class="navbar-reg">
+                        <div class="dropdown-reg">
+                          <button class="dropbtn-reg">Регистрация->
+                            <i class="fafa-caret-down-reg"></i>
+                          </button>
+                          <div class="dropdown-content-reg">
+                            <input class="otpravit2" type="email">email
+                            <input class="otpravit2" type="password"> пароль<br>
+                            <input class="otpravit" type="submit" value="Отправить">
+                          </div>
+                        </div>
+                    </div>
+                    </form>
+                    <p><a href="pages/Фрукты.html">Фрукты</a></p>
+                    <p><a href="pages/Боевыеискусства.html">Боевые искусства</a></p>
+                    </nav>
+            </div>
+            <!-- Информация страницы сайта -->
+        <main>
+            <div class="info-block">
+                <!-- Слайдер -->
+                <div class='sliderA'>
+                    <input type="radio" name="slider1" id="slider1_1" checked="checked">
+                    <label for="slider1_1"></label>
+                    <div><video width="600"  controls="controls" loop autoplay muted>
+                        <source src="video/Weare!.mp4"></video></div>
+                
+                    <input type="radio" name="slider1" id="slider1_2">
+                    <label for="slider1_2"></label>
+                    <div><iframe  src="https://www.youtube.com/embed/hQagzXbyp9I" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                
+                    <input type="radio" name="slider1" id="slider1_3">
+                    <label for="slider1_3"></label>
+                    <div><video width="600" controls="controls" loop>
+                        <source src="Video/OnePiece_TheGreatestStoryEverTold「ASMV」.mp4"></video></div>
+                
+                    <input type="radio" name="slider1" id="slider1_4">
+                    <label for="slider1_4"></label>
+                    <div><iframe  src="https://www.youtube.com/embed/73EaiJ_pUMs" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                </div>
+                <div class="text-area">
+                    <p>Добро пожаловать!</p><br> Здесь вы можете увидеть и опробовать что-то новенькое в ваших сессия по Днд. Недавно я попытался сделать игру
+                    по миру Ван Пис, однако пока сыровато... Буду ждать вашей отдачи и советов! <br><br>Здесь я попытаюсь как можно понятнее прописать мои нововведения в мир Днд и различные механики. Также пропишу лор и скорее всего буду делать ван шоты для дэмо игр. 
+                    Если вы вдруг решите потестить, буду только рад услышать ваши отзывы, а также критику, ведь я уверен, будет очень много вопросов про баланс и дыры в механиках.
+                </div>
+                
+            </div>
+            
+        </main>
+        <!-- Подвал сайта -->
+        <footer>
+            <p>Если есть идеи и советы обращайтесь к автору во вкладке контакты</p>
+        </footer>
+    </body>
+</html>

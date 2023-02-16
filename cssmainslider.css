@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*слайдер*/
+.sliderA {
+  width: 30%;
+  position: absolute;
+  text-align: center;
+  margin: 10% 100px;
+  display: block;
+  float: left;
+  margin-top: 10%;
+}
+.sliderA video{
+  width: 100%;
+  max-width: 190%;
+  margin-top: 10%;
+}
+.sliderA iframe{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10%;
+}
+.sliderA > input {
+  display: none;
+}
+.sliderA > input + label {
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  background: rgba(90, 90, 90, 0.8);
+  
+
+  cursor: pointer;
+
+  z-index: 1;
+  position: relative;
+
+  margin-right: 4px;
+  top: 57%;
+
+
+  transition: background 0.8s ease-out 0s;
+}
+
+.sliderA > input + label:hover {
+  background: rgba(250, 250, 250, 0.8);
+}
+
+.sliderA > input:checked + label {
+  background: rgba(220, 220, 220, 0.8);
+}
+.sliderA > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+.sliderA > div {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+}
+
+.sliderA > input:checked + label + div {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+}
+/*блок информации*/
+.info-block{
+  overflow-y: scroll;
+  position: absolute;
+  display: flex;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: -22;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-color: #aa9361a1;
+  display: block;
+}
+/*текстовое поле*/
+.text-area{
+  font-family: 'Conv_Pirate';
+  text-align: justify;
+  width: 50%;
+  font-weight: bold;
+  color: black;
+  font-size: 30pt;
+  display: block;
+  margin-right: 5%;
+  margin-top: 6%;
+  float: right;
+  line-height: 140%;
+}
+.text-area p{
+  text-align: center;
+  font-size: 40pt;
+  margin-top: 5%;
+}
