@@ -1,0 +1,28 @@
+.info-block{
+    overflow-y: scroll;
+    position: absolute;
+    display: flex;
+    z-index: -22;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: #aa9361a1;
+    display: block;
+  }
+  .text-area{
+    font-family: 'Conv_Pirate';
+    text-align: justify;
+    width: 90%;
+    font-weight: bold;
+    color: black;
+    font-size: 30pt;
+    display: block;
+    margin-left: 6%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+  }
+  .info-block p{
+    text-indent: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }

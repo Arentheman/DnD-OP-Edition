@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>D&D OP Edition</title>
+        <link rel="stylesheet" href="../css.css">
+        <link rel="stylesheet" href="css/осайте.css">
+        <script src="../main.js"></script>
+    </head>
+    <body>  
+        <header>
+            <div id ="header">
+                <img class = "Logo" src="../image/finishedLogo1.png" alt="Логотип">
+                <form class="poisk">
+                    <input type="text" name="text" class="search" placeholder="Searchhere!">
+                    <input type="submit" name="submit" class="submit" value="Search">
+                </form>
+                <div class = "menu">
+                    <a href="../Главная.html">Главная</a>
+                    <a href="Контакты.html">Контакты</a>
+                    <a href="Осайте.html">О сайте</a>
+                </div>
+            </div>
+        </header>
+            <div id = "left-menu">
+                <div class="left-menu-button" >
+                    <button class="left-menu-button" onclick="OpenMenu();">
+                        <img src="../image/3polosky.png" alt="меню">
+                    </button>
+                </div>
+                    <nav class="left-menu-pos">
+                    <p><a href="../Главная.html">Главная</a></p>
+
+                    <div id="navbar"  >
+                        <div class="dropdown" onclick="OpenLeftMenu();">
+                          <button id="dropbtn">Справочник->
+                            <i class="fafa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content-container">
+                            <div class="dropdown-content" >
+                                <a href="../pages/Механики.html">Механики</a>
+                                <a href="../pages/Расы.html">Расы</a>
+                                <a href="../pages/Класы.html">Классы</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <form>
+                    <div class="navbar-reg">
+                        <div class="dropdown-reg">
+                          <button class="dropbtn-reg">Регистрация->
+                            <i class="fafa-caret-down-reg"></i>
+                          </button>
+                          <div class="dropdown-content-reg">
+                            <input class="otpravit2" type="email">email
+                            <input class="otpravit2" type="password"> пароль<br>
+                            <input class="otpravit" type="submit" value="Отправить">
+                          </div>
+                        </div>
+                    </div>
+                    </form>
+                    <p><a href="Фрукты.html">Фрукты</a></p>
+                    <p><a href="Боевыеискусства.html">Боевые искусства</a></p>
+                    </nav>
+                </div>
+                <main>
+				<!-- Информация о сайте -->
+                    <div class="info-block">
+                        <div class="text-area">
+                            <p>Хотелось бы мне написать, что сайт создавался командой умелых разработчиков и дизайнеров, но нет...</p> <p> Он создавался студентом,
+                            который только на прошлой неделе понял как создавать сайты, тем более сам сайт я делал не только для себя и общества, но и чтобы
+                            сдать практику в колледже).</p> <p> Скорее всего в дальнейшем я буду его доделывать и даже поставлю на платный хостинг, но это точно будет не скоро.
+                            Что насчет содержания сайта: наверно вы уже сами догадались, но все-же поясню.</p> <p> Я большой фанат аниме тайтла One Piece, а также настольно
+                            ролевой игры D&D (Dungeons & Dragons). Можно сказать я попытался сделать аналог dnd.su, но по своему, практически полностью переделав всю 5-ую
+                            редакцию D&D, хоть продукт и сырой насколько он может быть, я решил что это хорошая идея для проекта.</p>
+                            Пока что на этом все, что вам необходимо знать. Игру я назвал "D&D OP Edition" или если на русском "Днд: Ван Пис редакция"
+                        </div>
+                    </div>
+                </main>
+                   
+        <footer>
+            <p>Если есть идеи и советы обращайтесь к автору во вкладке контакты</p>
+        </footer>
+    </body>
+</html>

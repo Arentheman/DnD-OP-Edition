@@ -1,0 +1,43 @@
+.info-block{
+    overflow-y: scroll;
+    position: absolute;
+    display: flex;
+    z-index: -22;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: #aa9361a1;
+    /*display: block;*/
+  }
+  .text-area{
+    font-family: 'Conv_Pirate';
+    text-align: justify;
+    width: 90%;
+    max-width: 90%;
+    font-weight: bold;
+    color: black;
+    font-size: 30pt;
+    display: block;
+    margin-left: 6%;
+    margin-top: 9%;
+    margin-bottom: 8%;
+    float: left;
+  }
+  .text-area img{
+      float: right;
+      width: 500px;
+      height: auto;
+      margin: 0;
+      padding: 0;
+  }
+  .info-block p{
+    text-indent: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .martial-block{
+    background-color: #695311d3;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+  }
