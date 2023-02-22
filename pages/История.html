@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>D&D OP Edition</title>
+        <link rel="stylesheet" href="../css.css">
+        <link rel="stylesheet" href="css/механики.css">
+        
+        <script src="../main.js"></script>
+    </head>
+    <body>  
+        <header>
+            <div id ="header">
+                <img class = "Logo" src="../image/finishedLogo1.png" alt="Логотип">
+                <form class="poisk">
+                    <input type="text" name="text" class="search" placeholder="Searchhere!">
+                    <input type="submit" name="submit" class="submit" value="Search">
+                </form>
+                <div class = "menu">
+                    <a href="../Главная.html">Главная</a>
+                    <a href="Контакты.html">Контакты</a>
+                    <a href="Осайте.html">О сайте</a>
+                </div>
+            </div>
+        </header>
+            <div id = "left-menu">
+                <div class="left-menu-button" >
+                    <button class="left-menu-button" onclick="OpenMenu();">
+                        <img src="../image/3polosky.png" alt="меню">
+                    </button>
+                </div>
+                    <nav class="left-menu-pos">
+                    <p><a href="../Главная.html">Главная</a></p>
+
+                    <div id="navbar"  >
+                        <div class="dropdown" onclick="OpenLeftMenu();">
+                          <button id="dropbtn">Справочник->
+                            <i class="fafa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content-container">
+                            <div class="dropdown-content" >
+                                <a href="../pages/Механики.html">Механики</a>
+                                <a href="../pages/Расы.html">Расы</a>
+                                <a href="../pages/Класы.html">Классы</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <p><a href="Фрукты.html">Фрукты</a></p>
+                    <p><a href="Боевыеискусства.html">Боевые искусства</a></p>
+                    <p><a href="История.html">История</a></p>
+                    </nav>
+                </div>
+                <main>
+                    <!-- Информация на странице -->
+                    <div class="info-block">
+                        <div class="text-area">
+                            <h1>История мира игры</h1><br>
+                            <p>Пока не придумал</p>
+                            <img src="../image/ПОКЕРФЕЙС.png" alt="ПОН"> 
+                        </div>
+                    </div>
+                </main>
+        <footer>
+            <p>Если есть идеи и советы обращайтесь к автору во вкладке контакты</p>
+        </footer>
+    </body>
+</html>
